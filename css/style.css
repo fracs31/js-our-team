@@ -1,0 +1,71 @@
+/* Regole generali */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1478px;
+    margin: 0px auto;
+}
+
+/* Body */
+body {
+    background-color: #F5F5F1;
+}
+
+/* Main */
+.main-content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Titoli */
+.titles {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Titolo */
+.title {
+    margin-bottom: 20px;
+}
+
+/* Riga */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Colonna */
+.col {
+    flex-basis: calc(100% / 3 - (40px * 2 / 3));
+}
+
+/* Carta */
+.card {
+    background-color: white;
+    width: 100%;
+}
+
+/* Testa della carta */
+.card-head {
+    width: 100%;
+}
+
+/* Immagine della carta */
+.card-head img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Corpo della carta */
+.card-body {
+    padding: 30px 0px;
+    text-align: center;
+}
