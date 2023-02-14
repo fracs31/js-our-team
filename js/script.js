@@ -30,4 +30,9 @@ const people = [
         role: "Graphic Designer", //ruolo
         img: "./img/barbara-ramos-graphic-designer.jpg" //immagine
     }
-]
+];
+
+//Ciclo
+for (let key in people) {
+    console.log(people[key]); //stampo gli oggetti dell'array di persone
+}
